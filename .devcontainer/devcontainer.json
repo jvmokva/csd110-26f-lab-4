@@ -1,0 +1,31 @@
+{
+    "name": "CSD110 - Lab 4",
+    "runArgs": ["--name", "csd110-lab-4" ],
+    "image": "mcr.microsoft.com/devcontainers/python:3.14-bookworm",
+    "postCreateCommand": "gh extension install saultcollege/gh-lab",
+    "postAttachCommand": "gh lab setup-check",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainer-community/devcontainer-features/jq:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python",
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.debugpy",
+                "ms-vsliveshare.vsliveshare",
+                "yzhang.markdown-all-in-one",
+                "esbenp.prettier-vscode",
+                "ms-vscode-remote.vscode-remote-extensionpack"
+            ]
+        }
+    }
+
+}

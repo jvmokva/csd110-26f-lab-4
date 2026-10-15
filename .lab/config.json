@@ -1,0 +1,7 @@
+{
+  "repo-name": "csd110-26f-lab-4",
+  "lab": "4",
+  "template-repo": "https://github.com/saultcollege-csd110/lab-4-template",
+  "course-config": "saultcollege-csd110/course-config/26f.json",
+  "branch-pattern": "lab-{lab}"
+}

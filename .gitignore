@@ -1,0 +1,4 @@
+# Ignore all pycache folders
+.pytest_cache
+__pycache__
+*.pyc
