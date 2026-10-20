@@ -1,6 +1,7 @@
 def get_year_animal(year): 
     """ 
     This function will receive a value (year) and return the correspondent Chinese Animal of the year 
+    The value must be a int
     """
 
     if year % 12 == 1:

@@ -2,6 +2,11 @@
 
 
 def centurize_year(year):
+    """
+    # This function receives a value(year) and return his correspondent century, era and the suffix
+    #  Century is mostly the year divided by 100.
+    #  
+    """
     century = abs(year) // 100
     if year == 0:
         year = year + 1
